@@ -1,10 +1,9 @@
 class B
 {
-    B(){}   
+    B() {}   
     public:
     static B* Create()
     {
-
         return new B();
     }
 
